@@ -1,0 +1,48 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  <servlet-name>CalculatorServlet</servlet-name>
+  <servlet-class>com.sidgs.calculator.CalculatorServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>UserServlet</servlet-name>
+  <servlet-class>com.sidgs.calculator.UserServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>UserPrefServlet</servlet-name>
+  <servlet-class>com.sidgs.calculator.UserPrefServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>UserLogoutServlet</servlet-name>
+  <servlet-class>com.sidgs.calculator.UserLogoutServlet</servlet-class>
+  </servlet>
+ 
+  
+  <servlet-mapping>
+  <servlet-name>CalculatorServlet</servlet-name>
+  <url-pattern>/calculator</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>UserServlet</servlet-name>
+  <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>UserPrefServlet</servlet-name>
+  <url-pattern>/userPref</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>UserLogoutServlet</servlet-name>
+  <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

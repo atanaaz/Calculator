@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Profile Page</title>
+<style>
+ input[type=submit] { 
+        background-color: #4CAF50; 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        border: none; 
+        cursor: pointer; 
+       
+    } 
+    
+    input[type=submit]:hover { 
+        opacity: 0.8; 
+    } 
+</style>
+</head>
+<body>
+	<form method="post" action="userPref">
+	<table>
+		<tr>
+			<td><select name="customize">
+				<option value="5">Display the last 5 results</option>
+				<option value="10">Display the last 10 results</option>
+				</select>
+			</td>
+		
+	</table>
+	<input type="submit" value="SetPreference"/>
+</form>
+	
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+com\sidgs\calculator\CalculatorDTO.class
+com\sidgs\calculator\UserLogoutServlet.class
+com\sidgs\calculator\CalculatorService.class
+com\sidgs\calculator\DbUtility.class
+com\sidgs\calculator\CalculatorDb.class
+com\sidgs\calculator\UserServlet.class
+com\sidgs\calculator\UserDb.class
+com\sidgs\calculator\User.class
+com\sidgs\calculator\UserPrefServlet.class
+com\sidgs\calculator\CalculatorServlet.class

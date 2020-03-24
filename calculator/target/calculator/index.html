@@ -1,0 +1,80 @@
+<html>
+<head>
+	<style>
+		#form1 { 
+     
+        margin-left: 500px;
+        margin-top:80px;
+        margin-right:500px;
+        padding: 50px;
+        border: 3px solid green;
+        }
+        
+         input[type=text], 
+    input[type=password]  {
+    	width: 100%; 
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border: 1px solid #ccc; 
+        box-sizing: border-box; 
+        }
+        
+         input[type=submit] { 
+        background-color: #4CAF50; 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        border: none; 
+        cursor: pointer; 
+        width: 100%; 
+    } 
+    
+    input[type=submit]:hover { 
+        opacity: 0.8; 
+    } 
+    a{
+    text-align:center;
+    padding-top: 16px;
+    }
+    #calc{
+    font-size:30px;
+    text-align:center;
+    margin-top:30px;
+    }   
+    #guest{
+    position:absolute;
+    left:44% ;
+    margin-right:100px;
+    float:center;
+ 
+    }
+	</style>
+</head>
+<body>
+<div id="calc"><b>Calculator App</b></div>
+<div id="form1">
+<form method="post" action="login">
+<table>
+
+<tr><td><input type="text" name="name" placeholder="Username" required /></td></tr>
+<tr><td><input type="password" name="password" placeholder="Password" required /></td></tr>	
+<tr><td><input type="submit" value="Log in"/></td></tr>	
+
+</table>
+</form>
+</div>
+
+<div id="guest">
+<form method="post" action="home.html">
+<table><tr><td><input type="submit" value="Continue as Guest"></td></tr></table>
+</form>
+
+</div>
+
+
+
+
+</body>
+</html>
+

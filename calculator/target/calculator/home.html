@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator</title>
+<style>
+		#form2 { 
+        margin-left: 400px;
+        margin-top:0px;
+        margin-right:450px;
+        padding: 60px;
+        border: 3px solid green;
+        }
+        
+         input[type=text], 
+    input[type=password]  {
+    	width: 100%; 
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border: 1px solid #ccc; 
+        box-sizing: border-box; 
+        }
+        
+         input[type=submit] { 
+        background-color: #4CAF50; 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        border: none; 
+        cursor: pointer; 
+        width: 100%; 
+    } 
+    
+    input[type=submit]:hover { 
+        opacity: 0.8; 
+    } 
+   .welcome{
+   margin: 20px auto;
+   font-size: 30px;
+    text-align:center;
+    }
+   /* #a{
+    float:right;
+    padding-top:16px;
+    margin-left: 500px;
+     margin-top:500px;
+     margin-right:400px;
+    }*/
+    #result{
+	  position:absolute;
+	 margin-left: 500px;
+     margin-top:400px;
+     /*margin-right:400px;*/
+	 /* border: 3px solid #73AD21;*/
+	  text-align:center;
+	  padding:30px;
+    }
+    #table{
+    position:absolute;
+    margin-left: 400px;
+     margin-top:500px;
+    border: 1px solid green;
+    padding:20px;
+    width:30%;
+    height:50px;
+    text-align:center;
+    }
+	.topnav-right{
+	left:70%;
+	overflow:hidden;
+	background-color:green;
+	width:8%;
+	}
+	
+	.topnav-right a {
+	position:static;
+	margin-top:0px;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color:green;
+}
+    .topnav a:hover{
+    opacity:0.8;
+    }
+    
+	</style>
+</head>
+<body>
+ 
+<div id="form2">
+<form method="post" action="calculator">
+<table>
+<tr><td>Operand 1:</td><td><input type="number" name="op1" required/><br/></td></tr>
+<tr><td>Operand 2:</td><td><input type="number" name="op2" required><br/></td></tr>
+<tr><td>Operator: </td><td><select name="op" required>
+<option value="Add">Add</option>
+<option value="Subtract">Subtract</option>
+<option value="Multiply">Multiply</option>
+<option value="Divide">Divide</option>
+</select></td></tr>
+ </table>
+<br/>
+<input type="submit" value="Submit">
+
+</form>
+</div>
+</body>
+
+
+</html>
